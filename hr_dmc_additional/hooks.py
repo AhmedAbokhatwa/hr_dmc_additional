@@ -130,6 +130,16 @@ app_license = "mit"
 # 	}
 # }
 
+# Example: Trigger on the Payroll Entry validate event
+# doc_events = {
+#     "Payroll Entry": {
+#         "validate": "hr_dmc_additional.overrides.overrides.PayrollEntry.should_add_component_to_accrual_jv"
+#     }
+# }
+override_doctype_class = {
+    "Payroll Entry": "hr_dmc_additional.controllers.overrides.CustomPayroll",
+
+}
 # Scheduled Tasks
 # ---------------
 
