@@ -15,7 +15,7 @@
     
 #   return 
 
-from hrms.hrms.payroll.doctype.payroll_entry.payroll_entry import PayrollEntry
+from hrms.payroll.doctype.payroll_entry.payroll_entry import PayrollEntry
 import frappe
 from frappe.utils import cint
 
